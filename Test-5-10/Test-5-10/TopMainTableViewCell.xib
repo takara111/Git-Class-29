@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="lDR-Ha-GMl" customClass="TopMainTableViewCell" customModule="Test_5_10" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lDR-Ha-GMl" id="VSe-Lx-bwl" customClass="TopMainTableViewCell" customModule="Test_5_10" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLg-yx-MWB">
+                        <rect key="frame" x="16" y="0.0" width="398" height="50.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="KzK-Ps-Rhy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.97124556809999996" green="1" blue="0.4047800292" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="iLg-yx-MWB" secondAttribute="bottom" id="W3b-08-Lmf"/>
+                    <constraint firstAttribute="trailing" secondItem="iLg-yx-MWB" secondAttribute="trailing" id="gd6-3B-mKB"/>
+                    <constraint firstItem="iLg-yx-MWB" firstAttribute="top" secondItem="VSe-Lx-bwl" secondAttribute="top" id="pwy-po-6HM"/>
+                    <constraint firstItem="iLg-yx-MWB" firstAttribute="leading" secondItem="VSe-Lx-bwl" secondAttribute="leading" constant="16" id="q0I-e8-YjJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.97124556809999996" green="1" blue="0.4047800292" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <connections>
+                <outlet property="label" destination="iLg-yx-MWB" id="yXQ-5u-aC0"/>
+            </connections>
+            <point key="canvasLocation" x="125" y="102"/>
+        </tableViewCell>
+    </objects>
+</document>
